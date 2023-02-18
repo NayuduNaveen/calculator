@@ -1,0 +1,74 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./Calcualtor-image.jpeg);
+}
+#container{
+    width: 30%;
+    height: 60%;
+    background-color:grey;
+    box-shadow: 5px 5px 5px black, -5px -5px 5px black;
+    position: relative;
+    opacity: 0.9;
+   
+}
+#display{
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    width: 75%;
+    height: 40px;
+    background-color: black;
+    font-size: 25px;
+    color: white;
+    border: 7px groove grey;
+
+}
+.a{
+    width: 15%;
+    height: 6vh;
+    position: relative;
+    top: 70px;
+    left: 40px;
+    margin: 8px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px grey;
+    border: 2px solid white;
+}
+#equal{
+    position:absolute;
+    top: 310px;
+    left: 50px;
+    width: 10vw;
+    height: 6vh;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    box-shadow: 2px 2px 2px grey;
+    border: 2px solid white;
+}
+#clear{
+    position:absolute;
+    top: 310px;
+    right: 50px;
+    width: 10vw;
+    height: 6vh;
+    border-radius: 20px;
+    background-color: rgb(239, 97, 2);
+    color: white;
+    font-size: 30px;
+    box-shadow: 2px 2px 2px grey;
+    border: 2px solid white;
+
+}
+.a:active{
+    background-color: rgb(209, 6, 6);
+    
+}
